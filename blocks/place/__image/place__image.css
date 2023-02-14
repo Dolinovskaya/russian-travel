@@ -1,0 +1,11 @@
+.place__image {
+  grid-area: image;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media all and (max-width: 650px) and (min-width: 426px) {
+  .place__image {
+    width: calc(5/112*100vw + 34240px/112);
+  }
+}

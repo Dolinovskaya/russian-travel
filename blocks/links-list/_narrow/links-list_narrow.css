@@ -1,0 +1,6 @@
+@media all and (max-width: 500px) {
+  .links-list_narrow {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

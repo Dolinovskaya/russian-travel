@@ -1,0 +1,8 @@
+@media all and (max-width: 768px) {
+  .content__section_tablet_wide {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

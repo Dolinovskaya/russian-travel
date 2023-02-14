@@ -1,0 +1,19 @@
+.intro__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+@media all and (max-width: 768px) {
+  .intro__title {
+    font-size: calc((54 - 32)/(768 - 320)*100vw + (768*32px - 320*54px)/(768 - 320));
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro__title {
+    line-height: 1.09;
+  }
+}

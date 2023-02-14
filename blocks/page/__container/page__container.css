@@ -1,0 +1,36 @@
+.page__container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media all and (max-width: 1024px) {
+  .page__container {
+    padding: 0 calc(24/256*100% - 48px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .page__container {
+    padding: 0 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .page__container {
+    padding: 0 16px;
+  }
+}
+
+/* calc(8/448*100% - 576/56px)
+(max-width: 1023px) and (min-width: 768px)  */

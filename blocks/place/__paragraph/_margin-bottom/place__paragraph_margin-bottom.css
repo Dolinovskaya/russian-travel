@@ -1,0 +1,9 @@
+.place__paragraph_margin-bottom {
+  margin-bottom: 40px;
+}
+
+@media all and (max-width: 320px) {
+  .place__paragraph_margin-bottom {
+    margin-bottom: 25px;
+  }
+}

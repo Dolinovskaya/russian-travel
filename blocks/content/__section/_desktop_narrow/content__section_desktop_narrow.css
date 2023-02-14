@@ -1,0 +1,5 @@
+@media all and (min-width: 1025px) {
+  .content__section_desktop_narrow {
+    width: calc(100% - 100px*2);
+  }
+}
