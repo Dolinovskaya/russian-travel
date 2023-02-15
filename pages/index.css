@@ -11,10 +11,10 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/content/__section/content__section.css);
-@import url(../blocks/content/__section/_desktop_narrow/content__section_desktop_narrow.css);
-@import url(../blocks/content/__section/_laptop_wide/content__section_laptop_wide.css);
-@import url(../blocks/content/__section/_tablet_wide/content__section_tablet_wide.css);
-@import url(../blocks/content/__section/_mobile_wide/content__section_mobile_wide.css);
+@import url(../blocks/content/__section/_desktop/content__section_desktop_narrow.css);
+@import url(../blocks/content/__section/_laptop/content__section_laptop_wide.css);
+@import url(../blocks/content/__section/_tablet/content__section_tablet_wide.css);
+@import url(../blocks/content/__section/_mobile/content__section_mobile_wide.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
