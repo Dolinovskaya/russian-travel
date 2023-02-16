@@ -15,15 +15,14 @@
   }
 }
 
-@media all and (max-width: 425pxpx) {
+@media all and (max-width: 425px) {
   .cover__subtitle {
     line-height: 1.14;
   }
 }
 
-@media all and (max-width: 320pxpx) {
+@media all and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
-    max-width: 288px;
   }
 }
