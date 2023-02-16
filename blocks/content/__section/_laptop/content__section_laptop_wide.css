@@ -1,17 +1,25 @@
 @media all and (max-width: 1024px) {
   .content__section_laptop_wide {
     width: calc(100vw - 16px);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: calc(-24/256*100vw + 48px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .content__section_laptop_wide {
+    margin-left: -24px;
   }
 }
 
 @media all and (max-width: 425px) {
   .content__section_laptop_wide {
     width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: -16px;
   }
 }
+
+/* @media all and (max-width: 320px) {
+  .content__section_laptop_wide {
+    margin-left: -16px;
+  }
+} */

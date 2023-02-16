@@ -1,8 +1,6 @@
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
   .content__section_mobile_wide {
     width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: -16px;
   }
 }

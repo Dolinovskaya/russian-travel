@@ -1,0 +1,10 @@
+.content__section_desktop_margin-left {
+  margin-left: 100px;
+}
+
+@media all and (max-width: 1024px) {
+  .content__section_desktop_margin-left {
+    margin-left: 0px;
+  }
+}
+

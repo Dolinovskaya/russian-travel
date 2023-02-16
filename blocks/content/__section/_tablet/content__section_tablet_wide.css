@@ -1,17 +1,19 @@
 @media all and (max-width: 768px) {
   .content__section_tablet_wide {
     width: calc(100vw - 16px);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: -24px;
   }
 }
 
-@media all and (max-width: 435px) {
+@media all and (max-width: 425px) {
   .content__section_tablet_wide {
     width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: -16px;
   }
 }
+
+/* @media all and (max-width: 320px) {
+  .content__section_tablet_wide {
+    margin-left: -16px;
+  }
+} */

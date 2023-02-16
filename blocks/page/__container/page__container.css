@@ -1,6 +1,7 @@
 .page__container {
   width: 100%;
   max-width: 1280px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 0 48px;
   box-sizing: border-box;
@@ -26,11 +27,9 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
   .page__container {
     padding: 0 16px;
   }
 }
 
-/* calc(8/448*100% - 576/56px)
-(max-width: 1023px) and (min-width: 768px)  */

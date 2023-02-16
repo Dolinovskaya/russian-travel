@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+@media all and (max-width: 1024px) {
+  .place__title {
+    font-size: calc(30/256*100vw - 12288px/256);
+  }
+}
+
 @media all and (max-width: 768px) {
   .place__title {
     font-size: 42px;
