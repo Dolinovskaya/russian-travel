@@ -6,6 +6,7 @@
   font-size: 72px;
   line-height: 1.06;
   max-width: 560px;
+  min-width: 288px;
 }
 
 @media all and (max-width: 768px) {
@@ -15,9 +16,16 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
   .cover__title {
     line-height: 1.09;
     margin-bottom: 16px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    max-width: 288px;
   }
 }

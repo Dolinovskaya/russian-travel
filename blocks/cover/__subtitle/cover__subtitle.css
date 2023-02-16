@@ -5,6 +5,7 @@
   font-size: 18px;
   line-height: 1.22;
   max-width: 360px;
+  min-width: 288px;
 }
 
 @media all and (max-width: 768px) {
@@ -14,8 +15,15 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425pxpx) {
   .cover__subtitle {
     line-height: 1.14;
+  }
+}
+
+@media all and (max-width: 320pxpx) {
+  .cover__subtitle {
+    font-size: 14px;
+    max-width: 288px;
   }
 }

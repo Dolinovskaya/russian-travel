@@ -8,12 +8,7 @@
 @media all and (max-width: 425px) {
   .content__section_tablet_wide {
     width: 100vw;
+    min-width: 320px;
     margin-left: -16px;
   }
 }
-
-/* @media all and (max-width: 320px) {
-  .content__section_tablet_wide {
-    margin-left: -16px;
-  }
-} */

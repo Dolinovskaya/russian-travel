@@ -6,6 +6,7 @@
   font-size: 30px;
   line-height: 1.2;
   max-width: 640px;
+  min-width: 288px;
 }
 
 @media all and (max-width: 1024px) {
@@ -17,13 +18,19 @@
 @media all and (max-width: 768px) {
   .lead__subtitle {
     font-size: calc(3.125vw + 6px);
-    width: calc(352/448*100% + 16384px/448);
+    max-width: calc(352/448*100% + 16384px/448);
+  }
+}
+
+@media all and (max-width: 425px) {
+  .lead__subtitle {
+    margin-bottom: 40px;
+    line-height: 1.25;
   }
 }
 
 @media all and (max-width: 320px) {
   .lead__subtitle {
-    margin-bottom: 40px;
-    line-height: 1.25;
+    font-size: 16px;
   }
 }

@@ -9,7 +9,7 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
   .content__section {
     margin: 0 auto 64px;
   }
