@@ -2,16 +2,27 @@
   margin-top: 28px;
   margin-bottom: 56px;
   width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
   .page__header {
     margin-bottom: 48px;
+    padding: 0 calc(24/256*100% - 48px);
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
+  .page__header {
+    margin-bottom: 48px;
+    padding: 0 24px;
+  }
+}
+
+@media all and (max-width: 425px) {
   .page__header {
     margin-top: 16px;
+    padding: 0 16px;
   }
 }

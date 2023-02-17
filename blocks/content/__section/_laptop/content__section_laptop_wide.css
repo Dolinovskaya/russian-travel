@@ -1,20 +1,5 @@
 @media all and (max-width: 1024px) {
   .content__section_laptop_wide {
-    width: calc(100vw - 16px);
-    margin-left: calc(-24/256*100vw + 48px);
-  }
-}
-
-@media all and (max-width: 768px) {
-  .content__section_laptop_wide {
-    margin-left: -24px;
-  }
-}
-
-@media all and (max-width: 425px) {
-  .content__section_laptop_wide {
-    width: 100vw;
-    min-width: 320px;
-    margin-left: -16px;
+    padding: 0;
   }
 }
